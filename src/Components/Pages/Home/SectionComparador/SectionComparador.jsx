@@ -11,9 +11,13 @@ function SectionComparador(){
                 <h2>COMPARA<strong>MOTOS</strong></h2>
 
                 <div className={style.divCompara}>
+                    <div className={style.divComparaCard}>
                     <FormCompara />
                     <FormCompara />
-                    
+                    </div>
+                    <button className={style.btnComparar}>
+                        Comparar <strong>Agora...</strong>
+                    </button>
                 </div>
             </div>
         </section>

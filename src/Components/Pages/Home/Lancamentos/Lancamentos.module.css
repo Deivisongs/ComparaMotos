@@ -1,0 +1,34 @@
+.section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #CE010E;
+    padding: 70px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+
+}
+.container .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 60px;
+}
+.container .text .title{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container .text .title span{
+   font-size: 40px;
+}
+.container .text .title h1{
+   font-size: 40px;
+}
+.cardsLancamentos{
+    display: flex;
+    justify-content: space-evenly;
+}
