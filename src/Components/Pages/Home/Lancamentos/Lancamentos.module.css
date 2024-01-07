@@ -30,5 +30,39 @@
 }
 .cardsLancamentos{
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-evenly;
+}
+@media(max-width: 700px){
+    .container .text .title span{
+        font-size: 35px;
+     }
+     .container .text .title h1{
+        font-size: 35px;
+     }
+}
+@media(max-width: 500px){
+    .container .text .title span{
+        font-size: 30px;
+     }
+     .container .text .title h1{
+        font-size: 30px;
+     }
+}
+@media(max-width: 350px){
+    .container .text .title span{
+        font-size: 25px;
+     }
+     .container .text .title h1{
+        font-size: 25px;
+     }
+}
+@media(max-width: 250px){
+    .container .text .title span{
+        font-size: 20px;
+     }
+     .container .text .title h1{
+        font-size:20px;
+     }
 }
