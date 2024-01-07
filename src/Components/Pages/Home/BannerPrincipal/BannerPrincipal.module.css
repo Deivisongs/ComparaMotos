@@ -1,0 +1,90 @@
+.section{
+    display: flex;
+    justify-content: center;
+    background-image: url(./../../../../assets/pexels-djordje-petrovic-1416169.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    height:90vh;
+    max-width: 1000px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    color: white;
+    font-size: 80px;
+    animation: aparece 2s;
+}
+.container p{
+    color: white;
+    font-size: 20px;
+    animation: aparece 3s;
+}
+.container .btnEncontre{
+    color: white;
+    margin-top: 30px;
+    font-size: 17px;
+    border-radius: 40px;
+    padding: 7px 25px;
+    background: #CE010E;
+    transition: 500ms;
+    animation: aparece 3s;
+}
+.container .btnEncontre:hover{
+    background: #92000a;
+    color: rgb(224, 224, 224);
+}
+
+@media(max-width: 700px){
+    .container h1{
+        font-size: 60px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+}
+@media(max-width: 500px){
+    .container h1{
+        font-size: 40px;
+    }
+    .container p{
+        font-size: 15px;
+    }
+}
+@media(max-width: 350px){
+    .container h1{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 12px;
+    }
+    .container .btnEncontre{
+        font-size: 14px;
+    }
+}
+@media(max-width: 250px){
+    .container h1{
+        font-size: 20px;
+    }
+    .container p{
+        color: white;
+        font-size: 10px;
+        animation: aparece 3s;
+    }
+}
+
+@keyframes aparece {
+    0%{
+        opacity: 0;
+        transform: translateY(+100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

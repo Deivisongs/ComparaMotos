@@ -1,0 +1,26 @@
+.section{
+    display: flex;
+    justify-content: center;
+    background: #F1F0F0;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h2{
+    font-size: 40px;
+    margin: 70PX 0;
+    font-weight: 400;
+}
+.container h2 strong{
+    color: #CE010E;
+}
+.divCompara{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
