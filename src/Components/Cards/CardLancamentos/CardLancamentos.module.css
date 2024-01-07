@@ -54,3 +54,12 @@
     background: #92000a;
     color: rgb(224, 224, 224);
 }
+
+@media(max-width: 420px) {
+    .card{
+        width: 70vw;
+    }
+    .divImg{
+        margin-bottom: 7vw;
+    }
+}
